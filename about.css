@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Orbitron', sans-serif;
+}
+
+body{
+  background: url("image/bg.png") center/cover fixed;
+  color:#fff;
+}
+
+/* HEADER */
+header{
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:70px;
+}
+
+.logo{
+  font-size:26px;
+  color:#b06cff;
+}
+
+.logo span{
+  color:#27ffe8;
+}
+
+nav a{
+  margin-left:25px;
+  color:#ccc;
+  text-decoration:none;
+  transition:.3s;
+}
+
+nav a:hover{
+  color:#00ffe1;
+}
+
+/* ABOUT */
+.about-section{
+  padding:120px 20px 80px;
+  max-width:900px;
+  margin:auto;
+  text-align:center;
+}
+
+.main-heading{
+  font-size:42px;
+  color:#00ffe1;
+}
+
+.main-heading span{
+  color:#b56cff;
+}
+
+.about-text{
+  margin-top:20px;
+  font-size:16px;
+  color:#ccc;
+  line-height:1.7;
+}
+
+/* STATS */
+.stats-section{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:30px;
+  max-width:1000px;
+  margin:80px auto;
+  padding:0 20px;
+}
+
+.stat-card{
+  background:rgba(0,0,0,0.7);
+  border:2px solid #00ffe1;
+  border-radius:18px;
+  padding:30px;
+  text-align:center;
+}
+
+.stat-card h2{
+  color:#00ffe1;
+  font-size:36px;
+}
+
+.stat-card p{
+  color:#ccc;
+  margin-top:10px;
+}
+
+/* TESTIMONIALS */
+.testimonial-section{
+  padding:80px 20px;
+  text-align:center;
+}
+
+.testimonial-grid{
+  margin-top:60px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:40px;
+  max-width:1100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.testimonial-card{
+  background:rgba(0,0,0,0.7);
+  border-radius:20px;
+  padding:30px;
+  border:2px solid #b56cff;
+}
+
+.testimonial-card i{
+  font-size:30px;
+  color:#00ffe1;
+  margin-bottom:15px;
+}
+
+.testimonial-card p{
+  font-size:15px;
+  color:#ccc;
+  line-height:1.6;
+}
+
+.testimonial-card h4{
+  margin-top:15px;
+  color:#00ffe1;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:2px solid #00ffe1;
+  background:rgba(0,0,0,0.85);
+}

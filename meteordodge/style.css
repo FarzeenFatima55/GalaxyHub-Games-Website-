@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #020013;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+/* Container */
+#gameContainer {
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #27ffe8;
+  margin-bottom: 15px;
+}
+
+/* Canvas */
+#gameCanvas {
+  background: #020013;
+  border: 3px solid #27ffe8;
+  box-shadow: 0 0 18px rgba(39, 255, 232, 0.6);
+}
+
+/* Buttons */
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px 26px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+
+  background: linear-gradient(90deg, #b06cff, #27ffe8);
+  box-shadow: 0 0 12px rgba(176, 108, 255, 0.6);
+  transition: 0.3s ease;
+  margin: 0 6px;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #27ffe8;
+}
+
+/* Status Text */
+#statusText {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 22px;
+  color: #27ffe8;
+  margin-top: 12px;
+}

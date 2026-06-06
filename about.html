@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GalaxyHub | About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Orbitron',sans-serif;}
+body{background:#050510;color:#fff;}
+
+header{
+  width:80%;margin:auto;height:70px;
+  display:flex;align-items:center;justify-content:space-between;
+}
+.logo{font-size:26px;color:#b06cff;}
+.logo span{color:#27ffe8;}
+nav a{margin-left:25px;color:#ccc;text-decoration:none;transition:.3s;}
+nav a:hover{color:#00ffe1;text-shadow:0 0 10px #00ffe1;}
+
+section{max-width:900px;margin:auto;padding:120px 20px 0;}
+
+h1{font-size:44px;color:#00ffe1;}
+h2{font-size:32px;color:#b56cff;margin-bottom:20px;}
+p{color:#ccc;line-height:1.8;font-size:15px;}
+
+.divider{height:3px;width:60px;background:#00ffe1;margin:30px 0;}
+
+.stats{margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:30px;}
+.stat h3{font-size:34px;color:#00ffe1;}
+.stat span{color:#aaa;font-size:14px;}
+
+.games-list{margin-top:30px;border-left:3px solid #00ffe1;padding-left:20px;}
+.games-list li{list-style:none;color:#ccc;margin:10px 0;}
+
+.testimonials{padding:120px 20px;max-width:1100px;margin:auto;}
+.testimonials h1{text-align:center;}
+.testimonial-grid{margin-top:70px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:40px;}
+
+.testimonial-card{
+  position:relative;
+  padding:30px;
+  background:linear-gradient(135deg,rgba(0,255,225,0.08),rgba(181,108,255,0.05));
+  border-radius:20px;
+  backdrop-filter:blur(10px);
+}
+.testimonial-card::before{
+  content:"";
+  position:absolute;top:0;left:0;right:0;bottom:0;
+  border-radius:20px;
+  border:1px solid rgba(0,255,225,0.4);
+}
+.testimonial-card i{font-size:26px;color:#00ffe1;margin-bottom:15px;}
+.testimonial-card p{font-size:14px;color:#ddd;}
+.testimonial-card h4{margin-top:15px;color:#b56cff;font-weight:600;}
+
+footer{
+  margin-top:100px;padding:30px;text-align:center;
+  border-top:2px solid #00ffe1;background:#050510;
+}
+footer p{color:#aaa;font-size:14px;}
+
+@media(max-width:768px){
+  h1{font-size:32px;}
+  h2{font-size:26px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GALAXY<span>HUB</span></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="games.html">Games</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<section>
+  <h1>About GalaxyHub</h1>
+  <div class="divider"></div>
+  <p>
+    GalaxyHub is a futuristic gaming platform built for players who love strategy,
+    speed, and competition. We combine classic games with modern neon aesthetics
+    to deliver an immersive and smooth gaming experience.
+  </p>
+</section>
+
+<section>
+  <h2>What We Offer</h2>
+  <p>
+    From quick mind games to fast-paced arcade challenges, GalaxyHub is designed
+    for both casual and competitive players.
+  </p>
+
+  <ul class="games-list">
+    <li>Tic Tac Toe</li>
+    <li>Rock Paper Scissors</li>
+    <li>Snake Neon</li>
+    <li>Meteor Dodge</li>
+    <li>Many more coming soon</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Our Impact</h2>
+  <div class="stats">
+    <div class="stat"><h3>10,000+</h3><span>Happy Players</span></div>
+    <div class="stat"><h3>5+</h3><span>Popular Games</span></div>
+    <div class="stat"><h3>99.9%</h3><span>Uptime</span></div>
+    <div class="stat"><h3>24/7</h3><span>Community Support</span></div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h1>What Players Say</h1>
+  <div class="testimonial-grid">
+
+    <div class="testimonial-card">
+      <i class="fas fa-quote-left"></i>
+      <p>
+        GalaxyHub feels futuristic and addictive. The design and smooth gameplay
+        make it one of my favorite gaming platforms.
+      </p>
+      <h4>— Ayaan K.</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fas fa-quote-left"></i>
+      <p>
+        Simple, fast, and fun. I especially love Snake Neon and can’t wait
+        for new games to launch.
+      </p>
+      <h4>— Sara M.</h4>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fas fa-quote-left"></i>
+      <p>
+        GalaxyHub is clean, responsive, and professional. It truly feels like
+        the future of casual online gaming.
+      </p>
+      <h4>— Daniel R.</h4>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 GalaxyHub — Play Beyond the Stars</p>
+</footer>
+
+</body>
+</html>

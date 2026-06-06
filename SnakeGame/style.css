@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Orbitron:wght@500&display=swap');
+
+body{
+  min-height:100vh;
+  background:
+    url("../image/bg.png") center/cover no-repeat fixed;
+  color:#fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1140px;
+    max-width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+header a {
+    font-size: 17px;
+    color: #eee;
+    margin-right: 40px;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: 'Orbitron', sans-serif;
+    color: #b06cff;
+}
+
+.logo span {
+    color: #27ffe8;
+}
+
+nav a {
+    margin-left: 30px;
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #9c4bff;
+    text-shadow: 0 0 10px #9c4bff;
+}
+
+
+#menu-toggle{ display:none; }
+.menu-icon{
+  display:none;
+  font-size:28px;
+  color:#00ffe1;
+  cursor:pointer;
+}
+
+
+/* Container */
+#gameContainer {
+    text-align: center;
+}
+
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #27ffe8;
+    margin-bottom: 15px;
+}
+
+/* Canvas */
+#gameBoard {
+    /* background: black; */
+    border: 3px solid #27ffe8;
+    box-shadow: 0 0 18px rgba(39, 255, 232, 0.6);
+}
+
+
+#scoreText {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    color: #27ffe8;
+    margin: 15px 0;
+}
+
+
+
+#resetBtn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+
+    background: linear-gradient(90deg, #b06cff, #27ffe8);
+    box-shadow: 0 0 12px rgba(176, 108, 255, 0.6);
+
+    transition: 0.3s ease;
+}
+
+footer {
+ 
+  padding: 40px 20px;
+  text-align: center;
+
+  margin-top: 80px;
+}
+
+footer .footer-logo {
+  font-size: 28px;
+  color: #b06cff;
+  margin-bottom: 10px;
+}
+
+footer .footer-logo span {
+  color: #27ffe8;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+footer .social-icons a {
+  color: #00ffe1;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #b56cff;
+  transform: scale(1.2);
+  text-shadow:  0 0 5px #b56cff;
+}
+
+
+@media (max-width: 768px) {
+  footer .footer-logo {
+    font-size: 24px;
+  }
+
+  footer .social-icons a {
+    font-size: 20px;
+  }
+}
+
+
+
+
+/* #resetBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #27ffe8;
+} */
+
